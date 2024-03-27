@@ -1,7 +1,8 @@
 # Imersao-Python-Alura
 Imersão Python: Do Excel à Análise de Dados
 
-Aula 01: 
+
+Aula 01: Análise Exploratória com Google Sheets
 
 Nesta aula, vamos começar a nossa análise da base da bolsa de valores explorando o Google Sheets, com VLOOKUP, SUMIF e muitas outras fórmulas, além de usarmos o Chat GPT durante a aula.
 
@@ -15,7 +16,8 @@ Fique até o final da aula e descubra insights e orientações exclusivas para i
 Materias:
 Cópia da planilha utilizada para a análise: https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit#gid=0
 
-Aula 02: 
+
+Aula 02: Gráficos e Análises com Google Colab e Python Pandas
 
 Nesta aula, vamos criar gráficos e tabelas no Google Sheets e, começar a manipulação de dados com Python Pandas pelo Google Colab!
 
