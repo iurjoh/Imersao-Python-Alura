@@ -71,6 +71,9 @@ Fique até o final da aula e descubra insights e orientações exclusivas para i
 
 Materiais:
 Código da aula 04: https://colab.research.google.com/drive/1TrL6SbbMoZkh-8ATijWx9N8cQeTl-U4J?usp=sharing
+Documentação Matplotlib: https://matplotlib.org/
+Exemplos gráficos de candlestick: https://drive.google.com/drive/folders/189sYBwsNzf5KVWxcXSap_vrbSSpe5B9x 
+
 
 Deseja ir além? Experimente este desafio:
 Pesquisar o que é uma tupla em Python;
@@ -91,3 +94,8 @@ Código da aula 05: https://colab.research.google.com/drive/1rI0FRhchqAcna_G0To4
 Deseja ir além? Experimente este desafio:
 Pesquisar o que é uma tupla em Python;
 Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
+
+
+Meus códigos:
+Aulas 01 - 03: https://colab.research.google.com/drive/1CI29pwrTJpODEGElsy1Zm2dX78OEppVi?authuser=0#scrollTo=SDJS4kyGAKLj
+Aula 04: https://colab.research.google.com/drive/18-TZrw3cBiH4bA1ILCjdjOlZzqwf_04W?authuser=0#scrollTo=OkqDdjUd0GHQ
