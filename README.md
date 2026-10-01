@@ -1,101 +1,60 @@
 # Imersao-Python-Alura
-Imersão Python: Do Excel à Análise de Dados
 
+[Português (Brasil)](README.pt-BR.md) | **English**
 
-Aula 01: Análise Exploratória com Google Sheets
+Study notes for Alura's Python immersion, "From Excel to Data Analysis". The course moves from spreadsheet exploration to Python data analysis, charts and an introduction to time-series forecasting.
 
-Nesta aula, vamos começar a nossa análise da base da bolsa de valores explorando o Google Sheets, com VLOOKUP, SUMIF e muitas outras fórmulas, além de usarmos o Chat GPT durante a aula.
+**Documentation reviewed:** 2026-10-01. Course materials and notebook links below come from the original study record. External notebooks, file permissions and results were not rerun or verified in this update. This is learning material, not investment advice.
 
-Também iremos:
-Analisar as bases de variações na B3;
-Fazer análises exploratórias pelo Google Sheets com fórmulas
-Usar o Chat GPT;
-Gerar tabelas e cálculos de estatísticas como Máximo, Mínimo e Média.
-Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
+## Purpose and learning plan
 
-Materias:
-Cópia da planilha utilizada para a análise: https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit#gid=0
+| Lesson | Topics | Exercises from the original record |
+| --- | --- | --- |
+| 1 | B3 market data in Google Sheets; VLOOKUP, SUMIF, maximum, minimum and mean; use of ChatGPT | Weekly/monthly/annual changes, company age bands and IF formulas |
+| 2 | Tables, spreadsheet charts, Google Colab and Pandas | Bar charts by age band and company count; exploring chart types |
+| 3 | Data transformation with Pandas and charts with Plotly Express | Number formatting, segment pie chart and grouping by age |
+| 4 | Candlestick charts, Matplotlib and interactive Plotly charts | Python tuples and an Apple stock chart with mplfinance |
+| 5 | Introduction to Prophet, machine learning and data careers | The original note repeats the tuple/Apple-chart challenge; it is preserved as a course note, not a confirmed distinct assignment |
 
-Deseja ir além? Experimente este desafio:
-Fazer os cálculos com as colunas de porcentagem (variação semanal; mensal; anual e 12 meses);
-Pegar via Chat GPT as faixas de idade;
-Pedir para o GPT gerar a fórmula IF para as faixas de idade.
+The exercises are proposals in the original record. This README does not claim they were all completed.
 
+## Architecture and tools
 
-Aula 02: Gráficos e Análises com Google Colab e Python Pandas
+```text
+Market-data spreadsheet -> Google Sheets exploration
+                        -> Colab notebooks -> Pandas transformations
+                                           -> Plotly/Matplotlib charts
+                                           -> Prophet introduction
+```
 
-Nesta aula, vamos criar gráficos e tabelas no Google Sheets e, começar a manipulação de dados com Python Pandas pelo Google Colab!
+This repository documents an external spreadsheet/notebook workflow, not a deployed application. Exact dependency versions and notebook execution state were not verified here.
 
-Também iremos:
-Gerar de tabelas e cálculos de estatísticas;
-Criar gráficos no Google Sheets;
-Conhecer o Google Colab;
-Iniciar a manipulação de dados com Python Pandas.
+## Course materials
 
-Materias:
-Código da aula 02: https://colab.research.google.com/drive/1Eic1tLm4vQCHpeaf_M5qNtjTTXLRPDTS?usp=sharing
-Cópia da planilha utilizada para a análise : https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit#gid=0
+- [Shared spreadsheet, lessons 1 and 2](https://docs.google.com/spreadsheets/d/1sGaR2Nkfi025rTzztCyDX7q-ZztHsK7U_SqXQr76dQ4/edit#gid=0)
+- [Lesson 2 notebook](https://colab.research.google.com/drive/1Eic1tLm4vQCHpeaf_M5qNtjTTXLRPDTS?usp=sharing)
+- [Lesson 3 notebook](https://colab.research.google.com/drive/1yEjLM944BiWEwBFF0-hMuLUMW-JURPya?usp=sharing)
+- [Plotly bar-chart documentation](https://plotly.com/python/bar-charts/)
+- [Lesson 4 notebook](https://colab.research.google.com/drive/1TrL6SbbMoZkh-8ATijWx9N8cQeTl-U4J?usp=sharing)
+- [Matplotlib documentation](https://matplotlib.org/)
+- [Candlestick examples folder](https://drive.google.com/drive/folders/189sYBwsNzf5KVWxcXSap_vrbSSpe5B9x)
+- [Lesson 5 notebook](https://colab.research.google.com/drive/1rI0FRhchqAcna_G0To4W05bG3uxBUbFS?usp=sharing)
 
-Deseja ir além? Experimente este desafio:
-Crie um gráfico de barras olhando a faixa etária e o valor da variação;
-Faça outro gráfico de barras com a faixa etária e a quantidade de empresas que estão em cada faixa etária;
-Explore os tipos de gráficos com os dados já feitos.
+These are the original credited links, not freshly verified availability claims.
 
+## Notebooks listed as the author's work
 
-Aula 03: Manipulação de Dados e Criação de Gráficos com bibliotecas Python
-Nesta aula, vamos continuar a manipulação de dados com Pandas no Colab por meio da transformação da planilha de ações. Além disso, vamos começar a construir gráficos com a biblioteca Plotly.
+- [Lessons 1-3](https://colab.research.google.com/drive/1CI29pwrTJpODEGElsy1Zm2dX78OEppVi?authuser=0#scrollTo=SDJS4kyGAKLj)
+- [Lesson 4](https://colab.research.google.com/drive/18-TZrw3cBiH4bA1ILCjdjOlZzqwf_04W?authuser=0#scrollTo=OkqDdjUd0GHQ)
 
-Também iremos:
-Manipular dados com Pandas;
-Transformar a planilha de ações com funções do Pandas;
-Construir gráficos com a biblioteca Plotly Express;
-Usar o Chat GPT durante o código.
+The full original Portuguese lesson record is preserved in [README.pt-BR.md](README.pt-BR.md).
 
-Materiais:
-Código da aula 03: https://colab.research.google.com/drive/1yEjLM944BiWEwBFF0-hMuLUMW-JURPya?usp=sharing
-Potly: Bar Charts in Python https://plotly.com/python/bar-charts/
+## Reuse, testing and snapshots
 
-Deseja ir além? Experimente este desafio:
-Pesquise com a documentação da biblioteca Plotly ou GPT como mudar a formatação dos números do gráfico de barras;
-Fazer o gráfico de pizza no df_análise_segmentos com a mesma biblioteca Potly;
-Fazer o GroupBy da categoria de idades e gerar o gráfico de barras.
+Open a linked notebook only with the access its owner permits. Use a copy and check its data sources, formulas and library versions before running it. No notebook or calculation was executed in this documentation update.
 
+For forecasting work, check train/test separation and prediction limits. Historical stock data and model forecasts are not financial guarantees. New example charts should include dates and sources, use public data and be stored in `docs/assets/`; no new snapshot is embedded here.
 
-Aula 04: Análises Avançadas de Ações e Gráficos de Velas
-Nesta aula, vamos construir gráficos de velas com Matplotlib e realizar ações mais avançadas, como gráficos interativos com Plotly.
+## Credits and license
 
-Também iremos:
-Criar gráficos de velas;
-Aprender a fazer gráficos interativos com Plotly.
-Fique até o final da aula e descubra insights e orientações exclusivas para impulsionar o seu aprendizado de forma eficaz com o uso do ChatGPT.
-
-Materiais:
-Código da aula 04: https://colab.research.google.com/drive/1TrL6SbbMoZkh-8ATijWx9N8cQeTl-U4J?usp=sharing
-Documentação Matplotlib: https://matplotlib.org/
-Exemplos gráficos de candlestick: https://drive.google.com/drive/folders/189sYBwsNzf5KVWxcXSap_vrbSSpe5B9x 
-
-
-Deseja ir além? Experimente este desafio:
-Pesquisar o que é uma tupla em Python;
-Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
-
-
-Aula 05: Previsão de Séries Temporais de Ações e Carreiras no Mercado de Dados
-Nesta última aula, vamos introduzir o Machine Learning com Prophet para além de todas as ferramentas já aprendidas durante a Imersão. Também vamos conhecer sobre as carreiras do mercado de dados.
-
-Também iremos:
-Ter uma introdução ao Machine Learning;
-Revisar ferramentas aprendidas durante a Imersão;
-Conhecer mais sobre as carreiras no mercado de dados.
-
-Materiais:
-Código da aula 05: https://colab.research.google.com/drive/1rI0FRhchqAcna_G0To4W05bG3uxBUbFS?usp=sharing
-
-Deseja ir além? Experimente este desafio:
-Pesquisar o que é uma tupla em Python;
-Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
-
-
-Meus códigos:
-Aulas 01 - 03: https://colab.research.google.com/drive/1CI29pwrTJpODEGElsy1Zm2dX78OEppVi?authuser=0#scrollTo=SDJS4kyGAKLj
-Aula 04: https://colab.research.google.com/drive/18-TZrw3cBiH4bA1ILCjdjOlZzqwf_04W?authuser=0#scrollTo=OkqDdjUd0GHQ
+Alura and the course-material authors. No root `LICENSE` was found in the review. This update does not apply MIT to third-party course material or change access to any external spreadsheet or notebook.
